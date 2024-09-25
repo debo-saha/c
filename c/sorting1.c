@@ -126,7 +126,7 @@ int main(){
 
 // SELECTION SORT
 
-//(NSTABLE SORT)
+//(NOT STABLE SORT)
 
 // int n;
 // printf("ENTER THE ARRAY SIZE :");

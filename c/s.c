@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include<stdbool.h>
 #include<string.h>
+#include<conio.h>
+#include"accctrl.h"
 // #include<math.h>
 // #include<limits.h>
 // int power(int n, int m) {
@@ -31,23 +33,23 @@
 //     b=gcd;
 // }
 // return gcd;
+// // }
+
+
+// void swap(int *a,int *b){
+//     int c=*a;
+//     *a=*b;
+//     *b=c;
 // }
+// void shortArray(char arr[],int size){
 
-
-void swap(int *a,int *b){
-    int c=*a;
-    *a=*b;
-    *b=c;
-}
-void shortArray(char arr[],int size){
-
-    for(int i=0;i<size;i++){
-        for(int j=0;j<2;j++){
+//     for(int i=0;i<size;i++){
+//         for(int j=0;j<2;j++){
             
-        }
-    }
+//         }
+//     }
 
-}
+// }
 int main(){
 // // first
 // printf("Firshtc\n");
@@ -113,7 +115,7 @@ int main(){
 
 // selection sort
 
-// int arr[]={5,6,9,8,4,2,1};
+// 
 
    
 // for(int i=0;i<7;i++){
@@ -130,21 +132,6 @@ int main(){
 //     }
 // }
 
-// for(int i=0;i<7;i++){
-//     int index=i;
-//     int min=arr[i];
-//     for(int j=i+1;j<7;j++){
-//         if(min>arr[j]){
-//             index=j;
-//             min=arr[j];
-//         }
-//     }
-//     swap(&arr[index],&arr[i]);
-// }
-
-// for(int i=0;i<7;i++){
-//     printf("%d ",arr[i]);
-// }
 
 
 
@@ -195,12 +182,58 @@ int main(){
 
 
 
-int a = 1;
-int b = ++a;
-int c = a++;
-printf("%d %d %d", a, b, c);
+// int a = 1;
+// int b = ++a;
+// int c = a++;
+// printf("%d %d %d", a, b, c);
 
-int a=1;
-printf("%d %d %d",a,++a,a++);
+// int a=1;
+// printf("%d %d %d",a,++a,a++);
+
+// int a=8,b=6;
+// char a="w";
+// printf("%d",int(a));
+
+// for(int i=1;i<=4;i++){
+//     int a=87;
+//     for(int j=4;j>i;j--){
+//         printf(" ");
+//     }
+//     for(int j=1;j<=i;j++){
+//     printf("%c ",a);
+//     a++;
+//     }
+    
+//     printf("\n");
+    
+// }for(int i=1;i<=4;i++){
+// for(int z=0;z<i;z++){
+//         printf(" ");
+//     }
+//      int a=87;
+//      for(int j=4;j>i;j--){
+//         printf("%c ",a);
+//         a++;
+//     }
+//     printf("\n");
+// }
+
+// int i;
+// for(i=1;i<=5;i++){
+//     printf("%d",i);
+//     getch();
+//     // return EXIT_SUCCESS;
+// }
+// int arr[10]={1,2,3,4,5};
+// printf("%d",arr[9]);
+
+// char str[50];
+// // printf("jdkddk");
+// scanf("%s",str);
+// // printf("jdkddk");
+// printf("%s",str);
+
+
+
 return 0;
 }
